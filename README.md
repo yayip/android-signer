@@ -18,7 +18,7 @@ zipalign -f -v 4 release.RE.apk release.RE.zipalign.apk
 apksigner sign -v --out release.RE.saved.apk --ks ~/Tools/android-signer/my-release-key.keystore --ks-key-alias alias release.RE.zipalign.apk
 ```
 
-**NOTE: ** Password keystore 123456
+**NOTE** Password keystore : 123456
 
 # Other way
 ```
