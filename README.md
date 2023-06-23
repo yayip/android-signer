@@ -20,7 +20,9 @@ apksigner sign -v --out release.RE.saved.apk --ks ~/Tools/android-signer/my-rele
 
 **NOTE** Password keystore : 123456
 
-# Other way
+## Other way if you failed to install apk
+**CASE :**  adb: failed to install release.RE.saved.apk: Failure [INSTALL_FAILED_INVALID_APK: Failed to extract native libraries, res=-2]
+
 ```
 zipalign -p -f 4 release.RE.apk release.RE.zipalign.apk
 ```
